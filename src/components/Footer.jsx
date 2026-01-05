@@ -19,7 +19,7 @@ const Footer = () => {
       <div className="absolute bottom-0 right-0 w-64 h-64 bg-yellow-600/5 rounded-full blur-3xl pointer-events-none"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-12">
           {/* 1. Brand Section */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
@@ -84,7 +84,7 @@ const Footer = () => {
           </div>
 
           {/* 3. Support Links */}
-          <div>
+          {/* <div>
             <h4 className="font-orbitron font-bold text-white text-lg mb-6">
               Support
             </h4>
@@ -116,7 +116,7 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* 4. Connect / Socials */}
           <div>

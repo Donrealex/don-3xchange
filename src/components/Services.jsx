@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaArrowRight,} from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 import { ServiceData } from "../constant/data";
 
 const WHATSAPP_LINK = "https://wa.me/message/7D6Z6X5765URN1";

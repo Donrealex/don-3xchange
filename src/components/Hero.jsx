@@ -38,17 +38,17 @@ const Hero = () => {
           {/* Headline */}
           <h1 className="font-orbitron text-5xl md:text-7xl lg:text-8xl font-black text-white leading-tight mb-6">
             SECURE YOUR <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-b from-yellow-100 via-yellow-400 to-yellow-700 drop-shadow-[0_0_25px_rgba(255,215,0,0.3)]">
+            <span className="text-transparent bg-clip-text bg-linear-to-b from-yellow-100 via-yellow-400 to-yellow-700 drop-shadow-[0_0_25px_rgba(255,215,0,0.3)]">
               DIGITAL ASSETS
             </span>
           </h1>
 
           {/* Subtext */}
           <p className="font-rajdhani text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
-             Experience seamless trading with 
+            Experience seamless trading with
             <span className="text-yellow-400 font-bold"> Don-3xchange</span>.
-            Secure, anonymous, and  instant transfers across Crypto, PayPal,
-            CashApp, and Zelle. 
+            Secure, anonymous, and instant transfers across Crypto, PayPal,
+            CashApp, and Zelle.
           </p>
           {/* <p className="font-rajdhani text-xl md:text-2xl text-gray-400 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
             The ultimate gateway for Crypto, CashApp, PayPal, and Wire
@@ -70,13 +70,13 @@ const Hero = () => {
             </a>
 
             {/* Secondary CTA */}
-            <a
+            {/* <a
               href="#services"
               className="group inline-flex items-center gap-2 px-8 py-4 rounded-full border border-yellow-500/30 bg-white/5 backdrop-blur-md text-white font-rajdhani font-bold text-lg hover:bg-white/10 hover:border-yellow-500/60 transition-all duration-300"
             >
               View Market
               <FaArrowRight className="text-yellow-500 group-hover:translate-x-1 transition-transform" />
-            </a>
+            </a> */}
           </div>
         </motion.div>
       </div>

@@ -53,7 +53,6 @@ const Navbar = () => {
               >
                 Services
               </a>
-             
 
               {/* CTA Button */}
               <a
@@ -99,7 +98,7 @@ const Navbar = () => {
               onClick={() => setIsOpen(false)}
               className="block text-gray-300 hover:text-yellow-400 text-lg"
             >
-              Assets & Services
+            Services
             </a>
             <a
               href={WHATSAPP_LINK}
@@ -107,7 +106,7 @@ const Navbar = () => {
               rel="noopener noreferrer"
               className="block w-full text-center font-orbitron font-bold bg-yellow-500 text-black px-4 py-3 rounded-lg mt-4"
             >
-              Start Trading Now
+              P2P Trading
             </a>
           </div>
         </div>
