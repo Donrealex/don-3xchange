@@ -61,7 +61,7 @@ const Footer = () => {
                   href="#services"
                   className="hover:text-yellow-400 transition-colors"
                 >
-                  Zelle Trades
+                  Zelle Payments
                 </a>
               </li>
               <li>
@@ -69,7 +69,7 @@ const Footer = () => {
                   href="#services"
                   className="hover:text-yellow-400 transition-colors"
                 >
-                  CashApp Trades
+                  CashApp Transfers
                 </a>
               </li>
               <li>

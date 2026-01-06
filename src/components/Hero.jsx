@@ -31,6 +31,10 @@ const Hero = () => {
               <span className="relative inline-flex rounded-full h-2 w-2 bg-yellow-500"></span>
             </span>
             <span className="text-yellow-200 text-xs font-orbitron tracking-widest uppercase">
+             
+              <span className="text-2xl font-bold text-transparent bg-clip-text bg-linear-to-b from-yellow-100 via-yellow-400 to-yellow-700 drop-shadow-[0_0_25px_rgba(255,215,0,0.3)]">
+                DON-3XCHANGE
+              </span>
               Premium Trading Platform
             </span>
           </div>
@@ -50,11 +54,6 @@ const Hero = () => {
             Secure, anonymous, and instant transfers across Crypto, PayPal,
             CashApp, and Zelle.
           </p>
-          {/* <p className="font-rajdhani text-xl md:text-2xl text-gray-400 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
-            The ultimate gateway for Crypto, CashApp, PayPal, and Wire
-            transfers. Fast, anonymous, and secured by industry-leading
-            standards.
-          </p> */}
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
@@ -68,15 +67,6 @@ const Hero = () => {
               START TRADING
               <FaWhatsapp className="text-xl group-hover:rotate-20 transition-transform duration-300" />
             </a>
-
-            {/* Secondary CTA */}
-            {/* <a
-              href="#services"
-              className="group inline-flex items-center gap-2 px-8 py-4 rounded-full border border-yellow-500/30 bg-white/5 backdrop-blur-md text-white font-rajdhani font-bold text-lg hover:bg-white/10 hover:border-yellow-500/60 transition-all duration-300"
-            >
-              View Market
-              <FaArrowRight className="text-yellow-500 group-hover:translate-x-1 transition-transform" />
-            </a> */}
           </div>
         </motion.div>
       </div>
@@ -89,7 +79,7 @@ const Hero = () => {
         className="absolute bottom-10 left-1/2 transform -translate-x-1/2 hidden md:flex flex-col items-center gap-2"
       >
         <span className="text-yellow-500/50 text-xs font-orbitron tracking-[0.2em] uppercase">
-          Scroll
+          {/* Scroll */}
         </span>
         <div className="w-px h-12 bg-linear-to-b from-yellow-500/0 via-yellow-500/50 to-yellow-500/0"></div>
       </motion.div>

@@ -17,21 +17,21 @@ export const ServiceData = [
   },
   {
     id: 2,
-    title: "PayPal",
+    title: "PayPal Exchanges",
     icon: FaPaypal,
     color: "text-blue-500",
     desc: "Fast and secure PayPal exchanges. We process funds directly from your balance.",
   },
   {
     id: 3,
-    title: "CashApp",
+    title: "CashApp Transfers",
     icon: FaDollarSign,
     color: "text-green-500",
     desc: "Instant mobile transfers. Scan our tag or send directly for quick processing.",
   },
   {
     id: 4,
-    title: "Zelle",
+    title: "Zelle Payments",
     icon: SiZelle,
     color: "text-purple-500",
     desc: "Bank-to-bank transfers with zero fees and instant confirmation times.",
@@ -45,7 +45,7 @@ export const ServiceData = [
   },
   {
     id: 6,
-    title: "Wire Transfer",
+    title: "Wire Transfer ",
     icon: FaUniversity,
     color: "text-gray-400",
     desc: "Handling high-volume domestic and international bank wires securely.",

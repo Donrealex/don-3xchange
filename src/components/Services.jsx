@@ -63,7 +63,7 @@ const Services = () => {
             viewport={{ once: true }}
             className="font-orbitron text-3xl md:text-5xl font-black text-transparent bg-clip-text bg-linear-to-r from-yellow-200 via-yellow-500 to-yellow-700 mb-4"
           >
-            WE OFFER THESE SERVICES
+           WHAT WE DO
           </motion.h2>
           <div className="h-1 w-24 bg-yellow-600 mx-auto rounded-full shadow-[0_0_15px_rgba(255,215,0,0.6)]"></div>
         </div>
