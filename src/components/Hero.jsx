@@ -34,7 +34,7 @@ const Hero = () => {
              
               <span className="text-2xl font-bold text-transparent bg-clip-text bg-linear-to-b from-yellow-100 via-yellow-400 to-yellow-700 drop-shadow-[0_0_25px_rgba(255,215,0,0.3)]">
                 DON-3XCHANGE
-              </span>
+              </span> <br />
               Premium Trading Platform
             </span>
           </div>
