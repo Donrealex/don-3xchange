@@ -27,13 +27,13 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* --- Logo Section --- */}
-          <div className="flex-shrink-0 flex items-center gap-3 cursor-pointer">
+          <div className="shrink-0 flex items-center gap-3 cursor-pointer">
             <img
               className="h-10 w-auto rounded border border-yellow-500/50 shadow-[0_0_10px_rgba(255,215,0,0.3)]"
-              src="\public\don.jpeg"
+              src="/don.jpeg"
               alt="Don-3xchange Logo"
             />
-            <span className="font-orbitron font-bold text-xl tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-yellow-500 to-yellow-700">
+            <span className="font-orbitron font-bold text-xl tracking-wider text-transparent bg-clip-text bg-linear-to-r from-yellow-300 via-yellow-500 to-yellow-700">
               Don-3xchange
             </span>
           </div>
@@ -98,7 +98,7 @@ const Navbar = () => {
               onClick={() => setIsOpen(false)}
               className="block text-gray-300 hover:text-yellow-400 text-lg"
             >
-            Services
+              Services
             </a>
             <a
               href={WHATSAPP_LINK}

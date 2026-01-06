@@ -1,6 +1,6 @@
 import React from "react";
-import { motion } from "framer-motion"; // Requires: npm install framer-motion
-import { FaWhatsapp, FaArrowRight } from "react-icons/fa"; // Requires: npm install react-icons
+import { motion } from "framer-motion"; 
+import { FaWhatsapp, FaArrowRight } from "react-icons/fa"; 
 
 const WHATSAPP_LINK = "https://wa.me/message/7D6Z6X5765URN1";
 
@@ -12,9 +12,9 @@ const Hero = () => {
         {/* Gold Glow Top Left */}
         <div className="absolute top-[-10%] left-[-10%] w-96 h-96 bg-yellow-600/20 rounded-full blur-[120px] opacity-60 animate-pulse" />
         {/* Purple/Dark Glow Bottom Right for Contrast */}
-        <div className="absolute bottom-[-10%] right-[-10%] w-[500px] h-[500px] bg-yellow-900/10 rounded-full blur-[100px] opacity-40" />
+        <div className="absolute bottom-[-10%] right-[-10%] w-125 h-125 bg-yellow-900/10 rounded-full blur-[100px] opacity-40" />
         {/* Grid Pattern Overlay */}
-        <div className="absolute inset-0 bg-[linear-gradient(rgba(255,215,0,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,215,0,0.03)_1px,transparent_1px)] bg-[size:40px_40px] [mask-image:radial-gradient(ellipse_at_center,black,transparent_80%)]"></div>
+        <div className="absolute inset-0 bg-[linear-gradient(rgba(255,215,0,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,215,0,0.03)_1px,transparent_1px)] bg-size[40px_40px] mask-[radial-linear(ellipse_at_center,black,transparent_80%)]"></div>
       </div>
 
       {/* --- Main Content --- */}
@@ -63,10 +63,10 @@ const Hero = () => {
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="group relative inline-flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-to-r from-yellow-600 to-yellow-400 text-black font-bold font-orbitron tracking-wider text-lg hover:scale-105 transition-transform duration-300 shadow-[0_0_20px_rgba(255,215,0,0.4)]"
+              className="group relative inline-flex items-center gap-3 px-8 py-4 rounded-full bg-linear-to-r from-yellow-600 to-yellow-400 text-black font-bold font-orbitron tracking-wider text-lg hover:scale-105 transition-transform duration-300 shadow-[0_0_20px_rgba(255,215,0,0.4)]"
             >
               START TRADING
-              <FaWhatsapp className="text-xl group-hover:rotate-[20deg] transition-transform duration-300" />
+              <FaWhatsapp className="text-xl group-hover:rotate-20 transition-transform duration-300" />
             </a>
 
             {/* Secondary CTA */}
@@ -91,7 +91,7 @@ const Hero = () => {
         <span className="text-yellow-500/50 text-xs font-orbitron tracking-[0.2em] uppercase">
           Scroll
         </span>
-        <div className="w-[1px] h-12 bg-gradient-to-b from-yellow-500/0 via-yellow-500/50 to-yellow-500/0"></div>
+        <div className="w-px h-12 bg-linear-to-b from-yellow-500/0 via-yellow-500/50 to-yellow-500/0"></div>
       </motion.div>
     </section>
   );
