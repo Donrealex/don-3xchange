@@ -4,6 +4,7 @@ import {
   FaDollarSign,
   FaEnvelopeOpenText,
   FaUniversity,
+  FaGift,
 } from "react-icons/fa";
 import { SiZelle } from "react-icons/si";
 
@@ -50,4 +51,11 @@ export const ServiceData = [
     color: "text-gray-400",
     desc: "Handling high-volume domestic and international bank wires securely.",
   },
+  {
+    id: 7,
+    title: "Gift Cards",
+    icon: FaGift,
+    color: "text-pink-500",
+    desc: "Buy and sell popular gift cards like Amazon, iTunes, and Google Play.",
+  }
 ];
